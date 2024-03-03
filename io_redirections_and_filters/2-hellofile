@@ -1,2 +1,2 @@
 #!/bin/bash
-cat '{print}' /etc/passwd
+cat  /etc/passwd
