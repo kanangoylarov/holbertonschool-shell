@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#Write a Bash script that loops from 1 to 10 and
+c=1
+while [ $c -le 20 ]
+do
+        if [ $c -eq 4 ]
+        then
+                echo "bad luck from China"
+        elif [ $c -eq 9 ]
+        then
+                echo "bad luck from Japan"
+	elif [ $c -eq 17 ]
+	then
+		echo "bad luck from Italy"
+        else
+                echo "Best School"
+        fi
+c=$((c+1))
+done
+~       
