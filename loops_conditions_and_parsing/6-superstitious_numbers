@@ -15,7 +15,7 @@ do
             echo "bad luck from Italy"
             ;;
         *)
-            echo "Best School"
+            echo $c
             ;;
     esac
 
