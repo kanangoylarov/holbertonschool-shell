@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Write a Bash script that displays the content of the file /etc/passwd
+find /etc/passwd -maxdepth 1 -type f | while read -r file
+do
+
+done
