@@ -12,7 +12,7 @@ case "$1" in
     
     stop)
         kill "$(cat "$PIDFILE")"
-        rm -f "$PIDFILE"
+        sudo bash -c rm -f "$PIDFILE"
         echo "manage_my_process stopped"
         ;;
     
